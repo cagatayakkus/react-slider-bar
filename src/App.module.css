@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  width: 100%;
+}
+.Container1 {
+  width: 80%;
+}
+.Container2 {
+  width: 60%;
+}
+.Container3 {
+  width: 40%;
+}
+.Container4 {
+  width: 20%;
+}
