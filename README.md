@@ -53,18 +53,19 @@ From top to bottom:
 
 1. ```javascript
         <SliderBar
-          initValue={40}
+          initValue={70}
           valueHandler={(num) => setFirstValue(Math.round(num))}
         />```
 2. ```javascript
         <SliderBar
-          initValue={30}
+          initValue={50}
           backgroundColor={"blue"}
           lineBorder={"1px solid red"}
           valueHandler={(num) => setSecondValue(Math.round(num))}
         />```
 3. ```javascript
         <SliderBar
+          initValue={30}
           border={"1px solid green"}
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
@@ -73,6 +74,7 @@ From top to bottom:
         />```
 4. ```javascript
         <SliderBar
+          initValue={20}
           border={"1px solid green"}
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
@@ -81,6 +83,7 @@ From top to bottom:
         />```
 5. ```javascript
         <SliderBar
+          initValue={10}
           border="1px solid green"
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
