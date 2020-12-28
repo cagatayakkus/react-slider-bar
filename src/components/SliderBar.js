@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import classes from "./SliderBar.module.css";
+import PropTypes from 'prop-types';
 
 const SliderBar = (props) => {
   const refContainer = useRef(null);
@@ -104,5 +105,13 @@ const SliderBar = (props) => {
     </div>
   );
 };
+
+SliderBar.propTypes= {
+  initValue: PropTypes.number,
+  border: PropTypes.string,
+  ellipseBorder: PropTypes.string,
+  ellipseColor: PropTypes.string,
+  valueHandler: PropTypes.func
+}
 
 export default SliderBar;
