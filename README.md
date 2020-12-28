@@ -41,7 +41,7 @@ npm start
   ```javascript
   valueHandler={(num) => setValue(Math.round(num))}
   ```
-  * PS: setValue does not belong to this project. It is just a simple react state hook to show this property.
+  * PS: setValue does not belong to this project. It is just a simple react state hook to show a nice use method for this property.
 
 ## Example
 
@@ -54,14 +54,14 @@ From top to bottom:
 1. ```javascript
         <SliderBar
           initValue={70}
-          valueHandler={(num) => setFirstValue(Math.round(num))}
+          valueHandler={(num) => console.log(Math.round(num))}
         />```
 2. ```javascript
         <SliderBar
           initValue={50}
           backgroundColor={"blue"}
           lineBorder={"1px solid red"}
-          valueHandler={(num) => setSecondValue(Math.round(num))}
+          valueHandler={(num) => console.log(Math.round(num))}
         />```
 3. ```javascript
         <SliderBar
@@ -70,7 +70,7 @@ From top to bottom:
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
           ellipseColor={"purple"}
-          valueHandler={(num) => setThirdValue(Math.round(num))}
+          valueHandler={(num) => console.log(Math.round(num))}
         />```
 4. ```javascript
         <SliderBar
@@ -79,7 +79,7 @@ From top to bottom:
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
           ellipseColor={"purple"}
-          valueHandler={(num) => setFourthValue(Math.round(num))}
+          valueHandler={(num) => console.log(Math.round(num))}
         />```
 5. ```javascript
         <SliderBar
@@ -88,7 +88,7 @@ From top to bottom:
           ellipseBorder={"1px solid green"}
           lineColor={"green"}
           ellipseColor={"purple"}
-          valueHandler={(num) => setFifthValue(Math.round(num))}
+          valueHandler={(num) => console.log(Math.round(num))}
         />```
 - - - -       
 Thank you for browsing my project.
