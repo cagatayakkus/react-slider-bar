@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import classes from "./SliderBar.module.css";
 import PropTypes from 'prop-types';
 
